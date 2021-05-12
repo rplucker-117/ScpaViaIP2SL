@@ -10,4 +10,5 @@ scp = ScpViaIP2SL(ip='192.168.1.1)
 Then, either call get_status or switch_output
 
 print(scp.get_status(output=1))
+
 scp.switch_output(input=1, output=2)

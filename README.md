@@ -3,12 +3,12 @@ This is a simple script to communicate with Ross NK video routers via their SCP/
 This is NOT for communicating directly with NK routers
 
 ## Setup
-###Setup is simple, create a class instance and include the ip address of the IP2SL.
+### Setup is simple, create a class instance and include the ip address of the IP2SL.
 
 
 scp = ScpViaIP2SL(ip='192.168.1.1)
 
-###Then, either call get_status or switch_output
+### Then, either call get_status or switch_output
 
 
 print(scp.get_status(output=1))

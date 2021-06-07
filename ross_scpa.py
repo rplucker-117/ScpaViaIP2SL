@@ -92,6 +92,7 @@ class ScpaViaIP2SL:
 
         self.__connect()
         self.__send_data(data=command)
+        self.__listen()
         self.__close()
 
 if __name__ == '__main__':
